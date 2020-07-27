@@ -16,5 +16,5 @@ federal interoperability channels and other known constants for my area.
 Please feel free to download the Excel file. Push the button and watch the magic! 
 
 
-Update uploaded 7/27/2020: Picking the project up again after a few months. The projects is moving towards the goal of handling more specific cases, such as the ones claimed above to not be automated due to individual agences naming conventions. After looking through previously created layouts from my coworkers, I've found there aren't many naming standards. This allows me to set my own standards, furthuring the functionality of my application. 
+**Update uploaded 7/27/2020:** Picking the project up again after a few months. The projects is moving towards the goal of handling more specific cases, such as the ones claimed above to not be automated due to individual agences naming conventions. After looking through previously created layouts from my coworkers, I've found there aren't many naming standards. This allows me to set my own standards, furthuring the functionality of my application. 
 The difficulty in implementing these is that I am trying to eliminate pages of If/ElseIf checks/handling conditions. 
