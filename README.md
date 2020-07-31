@@ -22,6 +22,6 @@ The difficulty in implementing these is that I am trying to eliminate pages of I
 
 
 **Update uploaded 7/31/2020:** 
-Added function to execute the Zone name with any length name (but not formats that aren't "Zone + letter + name", IFERNs, VTACs. 
+Added function to execute the Zone name with any length name (but not formats that aren't "Zone + letter + name"), IFERNs, VTACs. 
 Added a "cellChecker" function that correctly executes the code if the information is placed in A1, B1 or C1. D1 coming. 
 Finally got the "Marc #" working correctly. A lot of difficulty here. I realized that previous documents I'm working from have these cells as "text" format which, once the code started to execute, was changed to "custom" and not catching in further checks. Fixed this by altering my reformatting function and placeing it first in the execution hierarchy. 
