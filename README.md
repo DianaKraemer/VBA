@@ -13,10 +13,15 @@ depend on what the agencies naming conventions are and any customizations that m
 This document automates a numbering system, coloring/formatting of the zone blocks and coloring/formatting of set channels, such as 
 federal interoperability channels and other known constants for my area. 
 
-Please feel free to download the Excel file. Push the button and watch the magic! 
-
-
+Please feel free to download the (most recent) Excel file. Push the button and watch the magic! **Must have applicable data in A1, B1, C1, or D1**
 
 
 **Update uploaded 7/27/2020:** Picking the project up again after a few months. The projects is moving towards the goal of handling more specific cases, such as the ones claimed above to not be automated due to individual agences naming conventions. After looking through previously created layouts from my coworkers, I've found there aren't many naming standards. This allows me to set my own standards, furthuring the functionality of my application. 
 The difficulty in implementing these is that I am trying to eliminate pages of If/ElseIf checks/handling conditions. 
+
+
+
+**Update uploaded 7/31/2020:** 
+Added function to execute the Zone name with any length name (but not formats that aren't "Zone + letter + name", IFERNs, VTACs. 
+Added a "cellChecker" function that correctly executes the code if the information is placed in A1, B1 or C1. D1 coming. 
+Finally got the "Marc #" working correctly. A lot of difficulty here. I realized that previous documents I'm working from have these cells as "text" format which, once the code started to execute, was changed to "custom" and not catching in further checks. Fixed this by altering my reformatting function and placeing it first in the execution hierarchy. 
