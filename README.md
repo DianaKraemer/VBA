@@ -6,7 +6,10 @@ depend on what the agencies naming conventions are and any customizations that m
           
 This document automates a numbering system, coloring/formatting of the zone blocks and coloring/formatting of set channels, such as federal interoperability channels and other known constants for my area. 
 
-Please feel free to download the (most recent) Excel file. Push the button and watch the magic! **Must have applicable data in A1, B1, C1, or D1**
+#Instructions
+Download the most recent Excel file. There is a column of usable data already ready to go. **Make sure to enable macros or the document won't work!** 
+Push the button and watch the magic!
+If you'd like to see further funtionality, the Exel file "Selections" has a few more options. This allows you to see what I mean when I say that there are some cells that I may not be able to automate. **Must have applicable data in A1, B1, or C1. Currently data placed into D1 does not work correctly**
 
 
 **Update uploaded 7/27/2020:** Picking the project up again after a few months. The projects is moving towards the goal of handling more specific cases, such as the ones claimed above to not be automated due to individual agences naming conventions. After looking through previously created layouts from my coworkers, I've found there aren't many naming standards. This allows me to set my own standards, furthuring the functionality of my application. 
